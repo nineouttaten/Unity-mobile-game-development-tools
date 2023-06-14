@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &767837640692701870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9077490628058253380}
+  - component: {fileID: 3524989036206940370}
+  m_Layer: 0
+  m_Name: MovingGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9077490628058253380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767837640692701870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7163628, y: -9.45057, z: 8.1718445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3524989036206940370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767837640692701870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b4dbf1919ef0b4299e4b9069645a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfObjectsGroup: sphere
+  speed: {x: 1, y: 2, z: 0}
+  randomSpeed: 0
+  minRandomSpeed: {x: 0, y: 0, z: 0}
+  maxRandomSpeed: {x: 0, y: 0, z: 0}
+  plusSpeedEveryNew: 0
+  plusSpeed: {x: 0.1, y: 0.2, z: 0}
+  boundsOfSpeed: 0
+  minSpeed: {x: 0, y: 0, z: 0}
+  maxSpeed: {x: 0, y: 0, z: 0}
